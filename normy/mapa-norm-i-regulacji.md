@@ -22,7 +22,7 @@
 |---|---|---|---|
 | 🔴 | **ISO/IEC 27005:2022** Guidance on managing information security risks | Proces ryzyka dla ISMS; podejście oparte na zdarzeniach (event-based) i na aktywach (asset-based) | Bezpośrednio realizuje wymagania 27001 kl. 6.1.2, 6.1.3, 8.2, 8.3 |
 | 🔴 | **NIST CSF 2.0** (luty 2024) | 6 funkcji: Govern, Identify, Protect, Detect, Respond, Recover | Nowa funkcja **GOVERN** = kultura i nadzór nad ryzykiem cyber; rozpoznawalny globalnie |
-| 🟠 | **NIST SP 800-30 Rev.1** Guide for Conducting Risk Assessments | Klasyczna metodyka oceny ryzyka (zagrożenie–podatność–skutek) | Źródło szablonów i logiki oceny |
+| 🔴 | **NIST SP 800-30 Rev.1** (2012) Guide for Conducting Risk Assessments | Model ryzyka: źródło zagrożenia → zdarzenie → podatność / warunki sprzyjające → prawdopodobieństwo → skutek; proces w 4 krokach (przygotowanie, przeprowadzenie, komunikacja, utrzymanie); gotowe skale i tabele w załącznikach D–I | Darmowy, bardzo praktyczny – najlepsze źródło szablonów do metodyki oceny ryzyka ISMS; często używany razem z ISO/IEC 27005 |
 | 🟠 | **NIST SP 800-39** + **SP 800-37 Rev.2** (RMF) | Ryzyko na 3 poziomach: organizacja – proces – system | Łączenie poziomu zarządu z poziomem technicznym |
 | 🟠 | **NIST IR 8286** (seria A–D) Integrating Cybersecurity and ERM | Jak „wpiąć” ryzyko cyber do ERM | **Most między Twoimi dwoma światami** (cyber ↔ biznes) |
 | 🟠 | **Open FAIR** (The Open Group: O-RT, O-RA) | Ilościowa analiza ryzyka w pieniądzu | Wyróżnik na rynku PL – mało kto liczy ryzyko w PLN |

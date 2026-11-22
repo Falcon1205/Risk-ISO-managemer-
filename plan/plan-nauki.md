@@ -33,7 +33,7 @@
 |---|---|---|---|
 | 1–2 | Pojęcia, definicja ryzyka („wpływ niepewności na cele”), apetyt i tolerancja | ISO 31073, ISO 31000 kl. 1–4 | Słowniczek 30 pojęć PL/EN |
 | 3–4 | Ramy (framework): przywództwo, integracja, projekt, wdrożenie, ocena, doskonalenie | ISO 31000 kl. 5 | Opisz ramy dla wymyślonej firmy (np. MŚP produkcyjne, 150 os.) |
-| 5–6 | Proces: kontekst, kryteria, identyfikacja, analiza, ewaluacja, postępowanie, monitorowanie, komunikacja | ISO 31000 kl. 6 | Rejestr ryzyka dla tej firmy (biznes + cyber) |
+| 5–6 | Proces: kontekst, kryteria, identyfikacja, analiza, ewaluacja, postępowanie, monitorowanie, komunikacja | ISO 31000 kl. 6; **NIST SP 800-30 Rev.1** rozdz. 2–3 (model ryzyka i proces oceny) | Rejestr ryzyka dla tej firmy (biznes + cyber); porównanie procesu ISO 31000 i NIST 800-30 |
 | 7–8 | Techniki oceny | IEC 31010 (wybierz 8: burza mózgów, Delphi, bow-tie, FMEA, scenariusze, BIA, macierz, Monte Carlo) | Jeden bow-tie dla ransomware, jeden dla awarii dostawcy |
 | 9 | ERM i ład korporacyjny | COSO ERM 2017 (podsumowanie wykonawcze), Three Lines Model | Porównanie ISO 31000 vs COSO – **pierwszy artykuł** |
 | 10 | Ryzyko ilościowe | Hubbard & Seiersen *How to Measure Anything in Cybersecurity Risk* (2. wyd.), wprowadzenie do FAIR | Prosta symulacja Monte Carlo w Excelu (strata roczna z ransomware) |
@@ -101,7 +101,7 @@
 3. D. Hubbard, R. Seiersen – *How to Measure Anything in Cybersecurity Risk* (2nd ed., 2023)
 4. J. Freund, J. Jones – *Measuring and Managing Information Risk: A FAIR Approach*
 5. D. Hubbard – *The Failure of Risk Management* (2nd ed.)
-6. NIST CSF 2.0 + NIST IR 8286
+6. **NIST SP 800-30 Rev.1** (bezpłatny, nist.gov) + NIST CSF 2.0 + NIST IR 8286
 7. IRM – *Risk Culture: Resources for Practitioners*
 8. A. Edmondson – *The Fearless Organization*; S. Dekker – *Just Culture*
 9. Dyrektywa NIS 2 + rozporządzenie 2024/2690 + znowelizowana UKSC
