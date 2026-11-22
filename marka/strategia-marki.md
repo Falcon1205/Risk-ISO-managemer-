@@ -8,10 +8,22 @@ Wyróżnienie powinno wynikać z tego, czego oni nie robią:
 > **„Pomagam zarządom i zespołom podejmować lepsze decyzje w warunkach niepewności – budując kulturę ryzyka,
 > w której ISO 27001 i NIS 2 działają naprawdę, a nie tylko na papierze.”**
 
+**Wersja dopasowana do profilu (blue team + Lead Auditor):**
+
+> **„Ryzyko, ISO 27001 i ciągłość działania – od SOC do sali zarządu.”**
+> Risk manager, który rozumie, jak zabezpieczenia działają naprawdę, i potrafi to przełożyć na decyzje zarządu.
+
+To unikalne połączenie: wdrożeniowcy „papierowi” nie znają techniki, a technicy nie rozmawiają z zarządem.
+Twoje doświadczenie z incydentami to też naturalna wiarygodność w ciągłości działania (ransomware, odtwarzanie, tabletop).
+
 Trzy filary marki:
 1. **Ryzyko jako narzędzie decyzji zarządu** (ISO 31000, ERM, ilościowa analiza ryzyka w PLN).
 2. **ISO 27001 / NIS 2 bez papierologii** – system „szyty na miarę”, proporcjonalny do firmy.
 3. **Kultura ryzyka mierzalna** – diagnoza, wskaźniki, zmiana zachowań (Twoja nisza).
+4. **Odporność (ciągłość działania)** – BIA, plany, ćwiczenia tabletop dla zarządu (ISO 22301, NIS 2 art. 21 lit. c).
+
+**Rynek „wszystkie sektory”** – przyjmuj zlecenia z każdego sektora, ale w treściach marketingowych przez pierwsze 6 miesięcy
+mów do jednej grupy (rekomendacja: **MŚP objęte NIS 2 jako podmioty ważne** + ich dostawcy IT). Komunikat do wszystkich nie trafia do nikogo.
 
 Alternatywne zawężenia niszy (wybierz po odpowiedzi na pytania diagnostyczne):
 - MŚP produkcyjne objęte NIS 2 (łańcuchy dostaw, OT),
@@ -43,11 +55,14 @@ Formaty, które działają w tej branży:
 | Warsztat dla zarządu (art. 20 NIS 2) | Zarządy, rady nadzorcze | 3–4 h | Wejście „na górę” organizacji |
 | Diagnoza kultury ryzyka | Średnie i duże firmy | Ankieta + wywiady + raport | **Produkt flagowy / wyróżnik** |
 | Zewnętrzny risk manager / CISO / pełnomocnik ISMS | Firmy po certyfikacji | Abonament miesięczny | **Przychód powtarzalny** – fundament stabilnej firmy |
-| Audyty wewnętrzne ISMS | Firmy certyfikowane | Projekt corocznie | Wymaga Lead Auditor |
+| Audyty wewnętrzne ISMS | Firmy certyfikowane | Projekt corocznie | **Masz już Lead Auditor – usługa możliwa najwcześniej** |
+| Ćwiczenie tabletop (ransomware) dla zarządu | Każda firma | 1 dzień + raport | Łączy Twoją praktykę IR z BCM – świetny produkt wejściowy |
+| BIA i plany ciągłości działania | MŚP, podmioty NIS 2 | Projekt 4–8 tyg. | Po fazie 4 planu |
 | Szkolenia otwarte / online | Specjaliści, MŚP | Kurs, webinar | Skalowalne, budują markę |
 
 ## 4. Kroki formalne przy zakładaniu firmy (na później)
 
+- Obok etatu: zweryfikuj umowę o pracę (zakaz konkurencji, konflikt interesów). Pierwsze zlecenia można rozliczać umową o dzieło/zlecenie lub w ramach działalności nierejestrowanej (sprawdź aktualny limit przychodu), JDG – gdy pojawią się regularni klienci.
 - Forma: JDG na start (ew. ulga na start / mały ZUS) → sp. z o.o. przy wzroście lub zatrudnianiu.
 - PKD: 70.22.Z (doradztwo w zakresie prowadzenia działalności), 62.02.Z (doradztwo IT), 85.59.B (szkolenia) – zweryfikuj z księgowym (nowa klasyfikacja PKD 2025).
 - **Ubezpieczenie OC zawodowe** – konieczne przy doradztwie w obszarze bezpieczeństwa.

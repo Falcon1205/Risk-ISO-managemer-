@@ -8,6 +8,13 @@ dla właściciela repo, który buduje markę osobistą i docelowo firmę jako:
 - **wdrożeniowiec ISO/IEC 27001** (ISMS),
 - doradca w zakresie **NIS 2 / UKSC**, DORA, RODO i pokrewnych regulacji.
 
+## Profil użytkownika (2026-11)
+- Pracuje w cyberbezpieczeństwie (blue team), certyfikaty techniczne zdobywane głównie „pod egzamin”.
+- Ma certyfikat ISO/IEC 27001 Lead Auditor, ale bez praktyki – wiedza do odświeżenia.
+- 1–2 h nauki dziennie; firma budowana obok etatu; rynek polski, wszystkie sektory.
+- Cel: ryzyko (ERM + cyber), wdrożenia i audyty ISO 27001, ciągłość działania (ISO 22301), kultura ryzyka.
+- Ucząc, stawiaj na praktykę, quizy i case study (unikanie „nauki pod egzamin”).
+
 ## Zasady pracy
 - Język: **polski** (terminologia normatywna także po angielsku w nawiasie przy pierwszym użyciu).
 - Konkret > ogólniki: każda rada kończy się działaniem (co zrobić, do kiedy, jaki efekt/produkt).

@@ -1,124 +1,138 @@
-# Plan nauki – 12 miesięcy (wersja 1, do dopasowania)
+# Plan nauki – 12 miesięcy (wersja 2, dopasowana do profilu)
 
-> Założenia robocze (do potwierdzenia): ok. **8–10 h tygodniowo**, start od podstaw w zakresie norm,
-> pewne doświadczenie zawodowe w IT lub biznesie. Plan jest zasadą „**learn in public**” – każdy etap kończy się
-> produktem, który jednocześnie buduje Twoje portfolio i markę (patrz `marka/strategia-marki.md`).
+## Profil wyjściowy (stan: 2026-11)
+
+- Praca w cyberbezpieczeństwie (blue team), certyfikaty techniczne – wiedza zdobywana głównie „pod egzamin”.
+- **ISO/IEC 27001 Lead Auditor** – certyfikat jest, praktyki brak, wiedza wymaga odświeżenia.
+- Czas: **1–2 h dziennie** (ok. 8–12 h tygodniowo). Budowa firmy obok etatu. Rynek: **Polska**, wszystkie sektory.
+- Cel: **specjalista od ryzyka + wdrożenia i audyty ISO 27001 + ciągłość działania (ISO 22301)**.
+
+### Co z tego wynika dla planu
+1. **Nie uczysz się cyber od zera** – Twoja przewaga to rozumienie, jak zabezpieczenia działają w praktyce (SOC, incydenty, detekcja).
+   Brakuje Ci warstwy **zarządczej**: ryzyko, system zarządzania, rozmowa z zarządem. Na tym skupia się plan.
+2. **Problem „wiedzy pod egzamin”** rozwiązujemy zasadą: *każdy temat → zadanie praktyczne → dokument w portfolio → treść do publikacji*.
+   Wiedza, którą wytłumaczysz komuś innemu, nie ulatuje.
+3. **Nie robisz ISO 27001 Lead Implementer na start** – masz LA, a brakuje Ci praktyki, nie kolejnego certyfikatu. Budżet przeznacz na ISO 22301.
+4. **Praktyka audytorska jest priorytetem** – bez niej certyfikat LA ma ograniczoną wartość rynkową (patrz „Ścieżka praktyki”).
 
 ## Przegląd
 
-| Faza | Miesiące | Temat | Produkt końcowy (portfolio) | Certyfikacja (opcjonalnie) |
+| Faza | Miesiące | Temat | Produkt (portfolio) | Certyfikacja |
 |---|---|---|---|---|
-| 0 | tydz. 1–2 | Diagnoza i organizacja | Profil kompetencji, zakupione normy | – |
-| 1 | 1–3 | Fundamenty zarządzania ryzykiem + kultura ryzyka | **Własna metodyka zarządzania ryzykiem** (wersja 1) | ISO 31000 Risk Manager (PECB) lub IRM |
-| 2 | 3–6 | ISO/IEC 27001/27002/27005 – wdrożenie ISMS | **Toolkit ISMS** (rejestr ryzyk, SoA, polityki) | **ISO/IEC 27001 Lead Implementer** |
-| 3 | 6–8 | Regulacje: NIS 2, UKSC, DORA, RODO, KRI | **Mapowanie NIS 2/UKSC ↔ ISO 27001** + checklista gap analysis | NIS 2 Lead Implementer (opcjonalnie) |
-| 4 | 8–10 | Kultura ryzyka (specjalizacja) + pomiar | **Model dojrzałości kultury ryzyka** + ankieta diagnostyczna | – |
-| 5 | 10–12 | Audyt, ciągłość działania, praktyka | Pierwsze 1–3 projekty (pilotaż), case study | ISO/IEC 27001 Lead Auditor; potem CRISC |
+| 1 | 1–2 | Fundamenty ryzyka: ISO 31000, NIST SP 800-30, ISO/IEC 27005, FAIR | **Metodyka zarządzania ryzykiem v1** | – |
+| 2 | 3–4 | ISO/IEC 27001/27002 – odświeżenie z perspektywy wdrożeniowca **i** audytora | **Toolkit ISMS** + checklista audytowa | – |
+| 3 | 5–6 | Regulacje: NIS 2, UKSC, RODO, KRI, DORA | **Mapowanie NIS 2/UKSC ↔ ISO 27001** + test „czy podlegasz NIS 2” | – |
+| 4 | 7–8 | **Ciągłość działania**: ISO 22301, BIA, plany, testy | **Toolkit BCM** (BIA, BCP, scenariusz ćwiczenia) | **ISO 22301 Lead Implementer** |
+| 5 | 9–10 | Kultura ryzyka – specjalizacja | **Model dojrzałości kultury ryzyka** + ankieta | – |
+| 6 | 11–12 | Praktyka i start sprzedaży | Case study z 1–3 pilotaży | Rok 2: **CRISC** |
+
+**Ścieżka praktyki** biegnie równolegle od 2. miesiąca – patrz niżej.
 
 ---
 
-## Faza 0 – Diagnoza i organizacja (tydzień 1–2)
+## Rytm tygodnia (1–2 h dziennie)
 
-- [ ] Odpowiedz na pytania diagnostyczne (patrz koniec pliku) – dopasujemy plan.
-- [ ] Kup normy (PKN – polskie wersje PN; lub iso.org – EN). Minimum na start: **ISO 31000, ISO/IEC 27001, 27002, 27005**.
-      Wskazówka: PKN ma czytelnię i bywa taniej w polskiej wersji; do pracy z klientem warto znać terminologię PL **i** EN.
-- [ ] Załóż system notatek (np. Obsidian/Notion lub to repo – katalog `normy/notatki/`).
-- [ ] Zaktualizuj profil LinkedIn wg `marka/strategia-marki.md` (wersja „w budowie” jest OK).
+| Dzień | Czas | Co |
+|---|---|---|
+| Pn–Czw | 60–75 min | Nauka: norma / przepis / książka + notatka w `normy/notatki/` (własnymi słowami, max 1 strona) |
+| Pt | 60 min | Zadanie praktyczne tygodnia (dokument do portfolio) |
+| Sob | 90–120 min | Dokończenie zadania + **1 post na LinkedIn** z tego, czego się nauczyłeś |
+| Nd | 15 min | Wpis w `plan/dziennik-postepow.md`, plan następnego tygodnia; reszta – odpoczynek |
 
-## Faza 1 – Fundamenty zarządzania ryzykiem (miesiąc 1–3)
-
-**Cel:** rozumiesz ryzyko jako dyscyplinę zarządczą, nie jako tabelkę w Excelu.
-
-| Tydzień | Temat | Materiał | Zadanie praktyczne |
-|---|---|---|---|
-| 1–2 | Pojęcia, definicja ryzyka („wpływ niepewności na cele”), apetyt i tolerancja | ISO 31073, ISO 31000 kl. 1–4 | Słowniczek 30 pojęć PL/EN |
-| 3–4 | Ramy (framework): przywództwo, integracja, projekt, wdrożenie, ocena, doskonalenie | ISO 31000 kl. 5 | Opisz ramy dla wymyślonej firmy (np. MŚP produkcyjne, 150 os.) |
-| 5–6 | Proces: kontekst, kryteria, identyfikacja, analiza, ewaluacja, postępowanie, monitorowanie, komunikacja | ISO 31000 kl. 6; **NIST SP 800-30 Rev.1** rozdz. 2–3 (model ryzyka i proces oceny) | Rejestr ryzyka dla tej firmy (biznes + cyber); porównanie procesu ISO 31000 i NIST 800-30 |
-| 7–8 | Techniki oceny | IEC 31010 (wybierz 8: burza mózgów, Delphi, bow-tie, FMEA, scenariusze, BIA, macierz, Monte Carlo) | Jeden bow-tie dla ransomware, jeden dla awarii dostawcy |
-| 9 | ERM i ład korporacyjny | COSO ERM 2017 (podsumowanie wykonawcze), Three Lines Model | Porównanie ISO 31000 vs COSO – **pierwszy artykuł** |
-| 10 | Ryzyko ilościowe | Hubbard & Seiersen *How to Measure Anything in Cybersecurity Risk* (2. wyd.), wprowadzenie do FAIR | Prosta symulacja Monte Carlo w Excelu (strata roczna z ransomware) |
-| 11 | Kultura ryzyka – wprowadzenie | IRM *Risk Culture* (model A–B–C: attitude, behaviour, culture), ISO 31000 kl. 4 (zasady) | Lista 10 symptomów słabej kultury ryzyka – **post/karuzela** |
-| 12 | Synteza | – | **Metodyka zarządzania ryzykiem v1** (dokument 8–15 str.) → `toolkit/` |
-
-## Faza 2 – ISO/IEC 27001 w praktyce (miesiąc 3–6)
-
-**Cel:** potrafisz przeprowadzić wdrożenie ISMS od analizy luk do gotowości certyfikacyjnej.
-
-| Tydzień | Temat | Materiał | Zadanie praktyczne |
-|---|---|---|---|
-| 1–2 | Struktura HLS (Harmonized Structure), kl. 4–10 | ISO/IEC 27001, 27000, 27003 | Mapa klauzul → wymagane dokumenty („documented information”) |
-| 3 | Kontekst, strony zainteresowane, zakres (kl. 4) + Amd 1:2024 | 27001 kl. 4 | Dokument kontekstu i zakresu ISMS |
-| 4 | Przywództwo, polityka, role (kl. 5) | 27001 kl. 5, 27014 | Polityka bezpieczeństwa informacji (2 str.!) |
-| 5–7 | **Ryzyko w ISMS** (kl. 6.1.2, 6.1.3, 8.2, 8.3) | **ISO/IEC 27005:2022**, NIST SP 800-30 | Metodyka oceny ryzyka ISMS spójna z Twoją metodyką z fazy 1 |
-| 8–10 | Załącznik A / ISO 27002 – 93 zabezpieczenia, atrybuty | 27002:2022 | **Deklaracja stosowania (SoA)** z uzasadnieniami |
-| 11 | Wsparcie i działania (kl. 7–8): kompetencje, świadomość, komunikacja | 27001 kl. 7 | Program świadomości oparty o zachowania, nie o „slajdy raz w roku” |
-| 12 | Ocena i doskonalenie (kl. 9–10): pomiar, audyt wewnętrzny, przegląd zarządzania | 27004, ISO 19011 | 10 wskaźników KPI/KRI ISMS |
-| 13 | Proces certyfikacji (etap 1 / etap 2, nadzory, recertyfikacja), ISO/IEC 27006 w zarysie | – | Harmonogram wdrożenia 6-miesięcznego dla MŚP |
-| 14 | **Kurs + egzamin ISO/IEC 27001 Lead Implementer** | PECB / IRCA / inne akredytowane | Certyfikat |
-
-## Faza 3 – Regulacje (miesiąc 6–8)
-
-| Tydzień | Temat | Materiał | Zadanie praktyczne |
-|---|---|---|---|
-| 1–2 | NIS 2 – zakres, podmioty kluczowe/ważne, art. 20, 21, 23, nadzór i kary | Dyrektywa 2022/2555 (motywy też!) | Drzewo decyzyjne „czy moja firma podlega NIS 2?” – **lead magnet** |
-| 3 | Rozporządzenie wykonawcze 2024/2690 | Załącznik do rozporządzenia | Checklista wymagań technicznych |
-| 4–5 | **UKSC po nowelizacji** – obowiązki w PL, terminy, organy (CSIRT, organy właściwe), audyty | Tekst ustawy (ISAP), materiały gov.pl/cyfryzacja | Harmonogram dostosowania dla podmiotu ważnego |
-| 6 | Mapowanie NIS 2 art. 21 ↔ ISO/IEC 27001 Zał. A ↔ NIST CSF 2.0 | – | **Macierz mapowania** → `normy/mapowanie-nis2-iso27001.md` |
-| 7 | RODO (art. 24, 25, 32, 35) i KRI § 20 | – | Wspólny rejestr ryzyka „bezpieczeństwo + prywatność” |
-| 8 | DORA (jeśli finanse) lub CRA (jeśli producenci) – wybierz jedno | 2022/2554 + RTS 2024/1774 / 2024/2847 | Notatka 2-stronicowa „co to znaczy dla zarządu” |
-
-## Faza 4 – Kultura ryzyka: Twoja specjalizacja (miesiąc 8–10)
-
-**Cel:** masz autorski, mierzalny sposób diagnozowania i rozwijania kultury ryzyka. To będzie Twój „produkt flagowy”.
-
-- Modele: IRM Risk Culture Framework (8 aspektów), FSB (tone from the top, rozliczalność, skuteczna komunikacja i wyzwanie, zachęty),
-  COSO ERM komponent „Governance & Culture”, NIST CSF 2.0 GOVERN (GV.RR, GV.RM), ENISA – aspekty behawioralne.
-- Nauki behawioralne: *just culture* (Sidney Dekker), bezpieczeństwo psychologiczne (Amy Edmondson – *The Fearless Organization*),
-  heurystyki i błędy poznawcze w ocenie ryzyka (Kahneman; Gigerenzer *Risk Savvy*).
-- Pomiar: ankiety kultury, wskaźniki behawioralne (zgłoszenia incydentów, near-miss, czas reakcji, wyniki phishing-symulacji vs. **odsetek zgłoszeń**),
-  przegląd decyzji zarządu pod kątem ryzyka.
-- Art. 20 NIS 2 (szkolenia zarządu, odpowiedzialność osobista) = **wejście do zarządów** z tematem kultury.
-
-**Produkty:**
-- [ ] Model dojrzałości kultury ryzyka (5 poziomów × 6–8 wymiarów)
-- [ ] Ankieta diagnostyczna (20–30 pytań) + raport wzorcowy
-- [ ] Warsztat dla zarządu 3–4 h „Odpowiedzialność zarządu za ryzyko cyber w NIS 2” (scenariusz + slajdy)
-
-## Faza 5 – Audyt, ciągłość, praktyka (miesiąc 10–12)
-
-- ISO 22301 (BCM) w zarysie + BIA – NIS 2 art. 21 lit. c wymaga ciągłości działania i zarządzania kryzysowego.
-- ISO/IEC 27035 – proces obsługi incydentów pod terminy 24/72 h.
-- ISO 19011 + **kurs ISO/IEC 27001 Lead Auditor** (audytor wewnętrzny / podwykonawca jednostki certyfikującej – dodatkowe źródło przychodu i wiedzy „jak patrzy audytor”).
-- **Pilotaże:** 1–3 projekty po obniżonej cenie lub pro bono (fundacja, mała firma znajomego, JST) w zamian za referencję i case study.
-- Następny krok certyfikacyjny: **ISACA CRISC** (ryzyko IT, rozpoznawalny globalnie; wymaga 3 lat doświadczenia do pełnej certyfikacji).
+Zasada „**30 minut na odpytanie**”: raz w tygodniu poproś mnie o quiz / case study z bieżącego tematu – to najlepszy sposób, by nie wracać do nauki „pod egzamin”.
 
 ---
 
-## Lista lektur (kolejność sugerowana)
+## Faza 1 – Fundamenty zarządzania ryzykiem (miesiąc 1–2)
+
+| Tydz. | Temat | Materiał | Zadanie praktyczne |
+|---|---|---|---|
+| 1 | Definicja ryzyka („wpływ niepewności na cele”), apetyt, tolerancja, właściciel ryzyka | ISO 31073, ISO 31000 kl. 1–4 | Słowniczek 30 pojęć PL/EN; post: „Ryzyko to nie zagrożenie” |
+| 2 | Ramy zarządzania ryzykiem i proces | ISO 31000 kl. 5–6 | Opis ram dla fikcyjnej firmy „ACME” (MŚP produkcyjne, 150 os.) – będzie Twoim poligonem przez cały plan |
+| 3 | Model i proces oceny ryzyka NIST | **NIST SP 800-30 Rev.1** rozdz. 2–3 + zał. D–I | Porównanie ISO 31000 vs NIST 800-30 (1 strona) |
+| 4 | Ryzyko w bezpieczeństwie informacji | **ISO/IEC 27005:2022** (podejście oparte na zdarzeniach vs na aktywach) | Wybór podejścia dla ACME z uzasadnieniem |
+| 5 | Techniki oceny | IEC 31010 – bow-tie, scenariusze, FMEA, Delphi, BIA | Bow-tie „ransomware” – **wykorzystaj wiedzę blue team** (bariery prewencyjne = detekcja/prewencja, bariery łagodzące = IR/backup) |
+| 6 | Ryzyko ilościowe | Hubbard & Seiersen *How to Measure Anything in Cybersecurity Risk*, rozdz. 1–4; podstawy FAIR | Symulacja Monte Carlo w Excelu: roczna strata z ransomware w PLN |
+| 7 | ERM i ład korporacyjny | COSO ERM 2017 (streszczenie), IIA Three Lines Model, NIST IR 8286 (wybrane rozdziały) | Jak ryzyko cyber trafia do rejestru ryzyk zarządu ACME |
+| 8 | Synteza | – | **Metodyka zarządzania ryzykiem v1** (8–15 str.) → `toolkit/` + artykuł |
+
+## Faza 2 – ISO/IEC 27001 oczami wdrożeniowca i audytora (miesiąc 3–4)
+
+Każdą klauzulę przerabiasz dwutorowo: **„jak to wdrożyć proporcjonalnie?”** oraz **„o co zapytam i jaki dowód chcę zobaczyć jako audytor?”**.
+
+| Tydz. | Temat | Materiał | Zadanie praktyczne |
+|---|---|---|---|
+| 1 | Struktura (Harmonized Structure), kl. 4 + Amd 1:2024, zakres | 27001, 27000, 27003 | Kontekst, strony zainteresowane i zakres ISMS dla ACME |
+| 2 | Kl. 5–6: przywództwo, polityka, cele, **ryzyko (6.1.2, 6.1.3)** | 27001, 27005 | Polityka (2 str.) + metodyka ryzyka ISMS spójna z fazą 1 |
+| 3–4 | Załącznik A / 27002: 93 zabezpieczenia, atrybuty | 27002:2022 | **Deklaracja stosowania (SoA)** ACME; przy zabezpieczeniach technicznych – opisz, jaki dowód przedstawiłby Twój SOC |
+| 5 | Kl. 7–8: kompetencje, świadomość, dokumentacja, działania | 27001 | Program świadomości oparty o zachowania (np. wskaźnik zgłoszeń phishingu, nie tylko „klikalność”) |
+| 6 | Kl. 9–10: pomiar, audyt wewnętrzny, przegląd zarządzania, niezgodności | 27004, **ISO 19011**, 27007 | 10 KPI/KRI ISMS + program audytów wewnętrznych |
+| 7 | Technika audytu: próbkowanie, dowody, formułowanie niezgodności | ISO 19011 kl. 6–7, ISO/IEC 27006-1 (w zarysie) | **Checklista audytowa 27001** + 10 przykładowych niezgodności (opis, wymaganie, dowód) |
+| 8 | Synteza i harmonogram wdrożenia | – | **Toolkit ISMS** w `toolkit/` + harmonogram wdrożenia 6-mies. dla MŚP |
+
+## Faza 3 – Regulacje (miesiąc 5–6)
+
+| Tydz. | Temat | Materiał | Zadanie praktyczne |
+|---|---|---|---|
+| 1–2 | NIS 2: zakres, podmioty kluczowe/ważne, art. 20, 21, 23, nadzór, kary | Dyrektywa 2022/2555 | Drzewo decyzyjne „czy podlegasz NIS 2?” – **lead magnet** |
+| 3 | Rozporządzenie wykonawcze 2024/2690 | Załącznik | Checklista wymagań technicznych |
+| 4–5 | **UKSC po nowelizacji** – obowiązki, terminy, organy, audyty | ISAP, gov.pl/cyfryzacja | ⚠️ zweryfikuj aktualny stan prawny; harmonogram dostosowania dla podmiotu ważnego |
+| 6 | Mapowanie NIS 2 art. 21 ↔ ISO 27001 Zał. A ↔ NIST CSF 2.0 | – | **Macierz mapowania** → `normy/mapowanie-nis2-iso27001.md` |
+| 7 | RODO (art. 24, 25, 32, 35) + KRI § 20 (sektor publiczny) | – | Notatka „ISO 27001 a KRI – co wystarczy JST” |
+| 8 | DORA (przegląd) | 2022/2554 + RTS 2024/1774 | Notatka 2-str. „DORA dla zarządu” |
+
+## Faza 4 – Ciągłość działania / BCM (miesiąc 7–8)
+
+| Tydz. | Temat | Materiał | Zadanie praktyczne |
+|---|---|---|---|
+| 1 | System BCM, kl. 4–10 (ta sama struktura co 27001!) | **ISO 22301:2019** | Mapa wspólnych elementów ISMS + BCMS (zintegrowany system) |
+| 2–3 | **Analiza wpływu na działalność (BIA)**: MTPD, RTO, RPO, MBCO, zależności | ISO/TS 22317:2021, ISO 22313:2020 | BIA dla 5 procesów ACME |
+| 4 | Ocena ryzyka ciągłości i strategie | ISO 22301 kl. 8.2–8.3 | Strategie dla 3 scenariuszy: ransomware, utrata dostawcy chmury, niedostępność zakładu |
+| 5 | Plany: BCP, zarządzanie kryzysowe, komunikacja; ciągłość ICT | ISO 22301 kl. 8.4, **ISO/IEC 27031**, ISO 22361 (zarządzanie kryzysowe) | BCP + plan odtwarzania ICT – **Twoja wiedza z IR to atut** |
+| 6 | Ćwiczenia i testy | ISO 22398 (w zarysie) | **Scenariusz ćwiczenia tabletop** (ransomware) dla zarządu – gotowa usługa do sprzedaży |
+| 7 | NIS 2 art. 21 lit. c + DORA – wymagania ciągłości | – | Mapowanie ISO 22301 ↔ NIS 2 |
+| 8 | **Kurs + egzamin ISO 22301 Lead Implementer** | PECB lub inny akredytowany | Certyfikat; **Toolkit BCM** w `toolkit/` |
+
+## Faza 5 – Kultura ryzyka (miesiąc 9–10)
+
+- Modele: IRM Risk Culture Framework, FSB (tone from the top, rozliczalność, komunikacja i prawo do kwestionowania, zachęty),
+  COSO ERM „Governance & Culture”, NIST CSF 2.0 GOVERN, ENISA – aspekty behawioralne.
+- Nauki behawioralne: *just culture* (Dekker), bezpieczeństwo psychologiczne (Edmondson), błędy poznawcze w ocenie ryzyka (Kahneman, Gigerenzer).
+- Pomiar: ankiety, wskaźniki behawioralne (zgłoszenia incydentów i near-miss, czas eskalacji, jakość decyzji zarządu).
+- Art. 20 NIS 2 – odpowiedzialność i szkolenia zarządu = wejście do zarządów.
+
+**Produkty:** model dojrzałości (5 poziomów × 6–8 wymiarów), ankieta 20–30 pytań + raport wzorcowy,
+warsztat dla zarządu 3–4 h (art. 20 NIS 2 + ćwiczenie tabletop z fazy 4).
+
+## Faza 6 – Praktyka i start (miesiąc 11–12)
+
+- 1–3 projekty pilotażowe (gap analysis NIS 2/ISO 27001 lub BIA) po obniżonej cenie lub pro bono w zamian za referencję i case study.
+- Pakiet ofertowy: 3 usługi wejściowe ze stałą ceną (patrz `marka/strategia-marki.md`).
+- Rok 2: **ISACA CRISC** (Twoje doświadczenie w cyber prawdopodobnie zaliczy się do wymaganego stażu – do sprawdzenia w wymaganiach ISACA),
+  ewentualnie ISO 22301 Lead Auditor.
+
+---
+
+## Ścieżka praktyki (równolegle od miesiąca 2) – najważniejsza część planu
+
+| Krok | Działanie | Efekt |
+|---|---|---|
+| 1 | **U obecnego pracodawcy:** zgłoś się do zespołu ISMS/compliance jako audytor wewnętrzny, uczestnik oceny ryzyka lub ćwiczeń BCM | Najszybsza i bezpłatna praktyka, wpis do CV |
+| 2 | **Audyty wewnętrzne „na zewnątrz”:** 1–2 audyty wewnętrzne 27001 dla małych firm (znajomi, software house’y) – za symboliczną kwotę | Realne doświadczenie audytorskie |
+| 3 | **Jednostki certyfikujące:** zgłoś się jako audytor kontraktowy – zwykle wymagany udział w audytach jako obserwator/audytor w szkoleniu; zapytaj o ścieżkę kwalifikacji | Praktyka „jak patrzy audytor zewnętrzny”, dodatkowy przychód, sieć kontaktów |
+| 4 | **Społeczność:** ISSA Polska, ISACA Warsaw Chapter, meetupy – tam pojawiają się pierwsze zlecenia | Kontakty i polecenia |
+
+⚠️ **Działalność obok etatu – sprawdź przed pierwszym zleceniem:** umowę o pracę (zakaz konkurencji, konflikt interesów,
+klauzule o własności intelektualnej), regulamin pracy oraz to, czy klienci nie są klientami/konkurentami pracodawcy.
+
+## Lista lektur (kolejność)
 
 1. ISO 31000:2018 + ISO 31073:2022
-2. ISO/IEC 27001:2022 + 27002:2022 + 27005:2022
-3. D. Hubbard, R. Seiersen – *How to Measure Anything in Cybersecurity Risk* (2nd ed., 2023)
-4. J. Freund, J. Jones – *Measuring and Managing Information Risk: A FAIR Approach*
-5. D. Hubbard – *The Failure of Risk Management* (2nd ed.)
-6. **NIST SP 800-30 Rev.1** (bezpłatny, nist.gov) + NIST CSF 2.0 + NIST IR 8286
-7. IRM – *Risk Culture: Resources for Practitioners*
-8. A. Edmondson – *The Fearless Organization*; S. Dekker – *Just Culture*
-9. Dyrektywa NIS 2 + rozporządzenie 2024/2690 + znowelizowana UKSC
-
-## Rytm pracy (proponowany)
-
-- **Pn–Czw:** 1 h dziennie nauki (norma/książka) + notatka.
-- **Pt:** 1 h – zadanie praktyczne z tygodnia.
-- **Weekend (opcjonalnie):** 1–2 h – przerobienie notatki na treść (post/artykuł).
-- **Co miesiąc:** przegląd postępów w `plan/dziennik-postepow.md` i korekta planu.
-
-## Pytania diagnostyczne (odpowiedz, a dopasuję plan)
-
-1. Jakie masz obecnie doświadczenie (IT, audyt, compliance, finanse, zarządzanie, inne)? Ile lat?
-2. Czy masz już jakieś certyfikaty (np. ISO, ITIL, CISSP, CISA, PRINCE2)?
-3. Ile godzin tygodniowo realnie możesz poświęcić na naukę?
-4. Jaki budżet roczny na szkolenia i certyfikacje (rząd wielkości)?
-5. Jaki rynek docelowy: MŚP, sektor publiczny (JST, szpitale), finanse, produkcja, IT/software house, inny?
-6. Czy pracujesz teraz na etacie i budujesz to „po godzinach”? Jaki horyzont startu firmy?
-7. Rynek polski, czy także zagraniczny (treści po angielsku)?
+2. **NIST SP 800-30 Rev.1** (bezpłatny, nist.gov)
+3. ISO/IEC 27005:2022, potem 27001:2022 + 27002:2022 + ISO 19011:2018
+4. Hubbard & Seiersen – *How to Measure Anything in Cybersecurity Risk* (2nd ed.)
+5. Dyrektywa NIS 2 + rozporządzenie 2024/2690 + znowelizowana UKSC
+6. ISO 22301:2019 + ISO/TS 22317:2021 (BIA) + ISO/IEC 27031
+7. NIST CSF 2.0 + NIST IR 8286
+8. IRM *Risk Culture*; Edmondson *The Fearless Organization*; Dekker *Just Culture*
+9. Freund & Jones – *Measuring and Managing Information Risk: A FAIR Approach*
