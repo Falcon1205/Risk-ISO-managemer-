@@ -27,6 +27,16 @@
 | 6 | 11–12 | Praktyka i start sprzedaży | Case study z 1–3 pilotaży | Rok 2: **CRISC** |
 
 **Ścieżka praktyki** biegnie równolegle od 2. miesiąca – patrz niżej.
+**Praktyka symulowana z Claude:** ćwiczenia P0–P13 (`praktyka/program-praktyki.md`) – P1–P4 w fazie 1, P5–P8 w fazie 2, P9 w fazie 3, P10–P11 w fazie 4, P12 w fazie 5, P13 w fazie 6.
+
+### Kamienie milowe sprzedaży (szczegóły: `marka/model-przychodow.md`)
+| Miesiąc | Sprzedaż |
+|---|---|
+| 1 | Sprawdzenie umowy o pracę; lista 30 kontaktów (firmy doradcze, IT/MSSP, kancelarie, znajomi w MŚP) |
+| 2–3 | Zgłoszenie się jako podwykonawca/audytor do 5–10 firm i jednostek certyfikujących; **pierwsza płatna usługa: audyt wewnętrzny lub podwykonawstwo** |
+| 4–6 | Oferta gap analysis 27001/NIS 2 ze stałą ceną; lead magnet NIS 2; 2 partnerów polecających |
+| 7–9 | Tabletop i warsztat dla zarządu w ofercie; 2–3 rozmowy sprzedażowe tygodniowo |
+| 10–12 | Pierwsze wdrożenie (samodzielnie lub z partnerem) → propozycja abonamentu |
 
 ---
 

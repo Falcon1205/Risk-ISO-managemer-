@@ -24,8 +24,16 @@ dla właściciela repo, który buduje markę osobistą i docelowo firmę jako:
 - Zadawaj pytania, gdy brakuje kontekstu (doświadczenie, budżet, rynek docelowy, czas).
 - Postępy nauki i decyzje zapisuj w `plan/dziennik-postepow.md`.
 
+## Praktyka (symulacje)
+- Użytkownik przechodzi praktykę w formie symulowanych projektów wg `praktyka/program-praktyki.md` na firmie ACME (`praktyka/acme/`).
+- Na komendę `Start Pn` ustaw scenę, graj postacie realistycznie (nie podpowiadaj, ujawniaj tylko to, o co zapyta),
+  na koniec oceń wg rubryki i zapisz wynik w `praktyka/wyniki/Pn.md`. Fakty o ACME utrzymuj spójne między ćwiczeniami
+  (dopisuj ustalone fakty do `praktyka/acme/fakty-ustalone.md`).
+- Każde ćwiczenie łącz z usługą do sprzedaży (`marka/model-przychodow.md`).
+
 ## Struktura repo
 - `plan/` – plan nauki, harmonogram, dziennik postępów
 - `normy/` – mapa dokumentów normatywnych i regulacji, notatki z norm, mapowania (np. NIS2 ↔ ISO 27001)
 - `marka/` – strategia marki osobistej, pozycjonowanie, plan treści, model biznesowy firmy
+- `praktyka/` – program symulowanych projektów, firma ćwiczeniowa ACME, wyniki
 - (docelowo) `toolkit/` – własna metodyka i szablony (rejestr ryzyk, SoA, polityki) jako portfolio
