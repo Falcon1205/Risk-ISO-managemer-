@@ -21,6 +21,7 @@ podwykonawstwo         tabletop, BIA              pełnomocnik ISMS (abonament) 
 | **Podwykonawstwo** dla firm doradczych / jednostek certyfikujących (stawka dzienna) | od zaraz (masz LA) | dni | 1 200–2 000 → 2 000–3 500 PLN/dzień |
 | **Audyt wewnętrzny ISO 27001** (MŚP) | mies. 3–4 | 3–5 dni | 4 000–8 000 → 8 000–15 000 PLN |
 | **Gap analysis ISO 27001 lub NIS 2** | mies. 4–6 | 5–10 dni | 8 000–15 000 → 15 000–30 000 PLN |
+| **Ocena dojrzałości wg NIST CSF 2.0** (profil obecny/docelowy + mapa drogowa) | mies. 3–4 | 5–8 dni | 6 000–12 000 → 12 000–25 000 PLN |
 | **Ćwiczenie tabletop „ransomware”** + raport | mies. 7–8 | 3–4 dni | 6 000–10 000 → 10 000–20 000 PLN |
 | **Warsztat dla zarządu** (art. 20 NIS 2) | mies. 6+ | 1–2 dni | 4 000–8 000 → 8 000–15 000 PLN |
 | **BIA + plany ciągłości** | mies. 8+ | 10–20 dni | 15 000–30 000 → 30 000–60 000 PLN |

@@ -9,3 +9,4 @@
 | 2026-11-22 | Moduł 0, lekcja 1 | Quiz A: 3,25/5. Dobrze: obowiązkowość kl. 4–10, SoA, dobór zabezpieczeń wg ryzyka | Do utrwalenia: 27001 = wymagania (nie „założenia”), pełne PDCA, dokument vs zapis (zapisów się nie zmienia) | – |
 | 2026-11-22 | Lekcja 2 | NIST SP 800-30 – model ryzyka, proces, załączniki, relacja z ISO 27001 | Zadanie: 2 scenariusze ryzyka dla ACME wg modelu NIST | Post: „Ryzyko to łańcuch, nie kratka w macierzy” |
 | 2026-11-22 | Metoda nauki | Schemat 7 pytań ryzyka (ISO=CO, NIST=JAK), szkielet metodyki v0, system powtórek | Użytkownik chce rozumieć intuicyjnie, nie wkuwać | Post: „Ocena ryzyka to triage incydentu, który jeszcze się nie wydarzył” |
+| 2026-11-22 | Faza 1 | Decyzja: zarządzanie ryzykiem uczymy się ścieżką NIST (800-39 → 800-30 → CSF 2.0 GOVERN → IR 8286), ISO jako „tłumaczenie”. Lekcja 3: SP 800-39 | Nowa usługa: ocena dojrzałości wg NIST CSF 2.0 | Post: „Zarządzanie ryzykiem to FARM: Frame, Assess, Respond, Monitor” |

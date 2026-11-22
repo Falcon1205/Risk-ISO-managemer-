@@ -20,7 +20,7 @@
 | Faza | Miesiące | Temat | Produkt (portfolio) | Certyfikacja |
 |---|---|---|---|---|
 | **0** | **tydz. 1–2** | **ISO 27001 od podstaw** (wynik P0: start od zera) – mapa normy, logika systemu, pojęcia | Notatki `normy/notatki/lekcja-0x`, lista wymaganej dokumentacji | – |
-| 1 | 1–2 | Fundamenty ryzyka: ISO 31000, NIST SP 800-30, ISO/IEC 27005, FAIR | **Metodyka zarządzania ryzykiem v1** | – |
+| 1 | 1–2 | **Zarządzanie ryzykiem wg NIST**: SP 800-39, 800-30, CSF 2.0 (GOVERN), IR 8286 → tłumaczenie na ISO 27001 | **Metodyka zarządzania ryzykiem v1** | – |
 | 2 | 3–4 | ISO/IEC 27001/27002 – odświeżenie z perspektywy wdrożeniowca **i** audytora | **Toolkit ISMS** + checklista audytowa | – |
 | 3 | 5–6 | Regulacje: NIS 2, UKSC, RODO, KRI, DORA | **Mapowanie NIS 2/UKSC ↔ ISO 27001** + test „czy podlegasz NIS 2” | – |
 | 4 | 7–8 | **Ciągłość działania**: ISO 22301, BIA, plany, testy | **Toolkit BCM** (BIA, BCP, scenariusz ćwiczenia) | **ISO 22301 Lead Implementer** |
@@ -68,18 +68,22 @@ dzięki temu nauka ryzyka w fazie 1 będzie miała kontekst.
 | 5 | Załącznik A – przegląd 93 zabezpieczeń | 15 zabezpieczeń znanych z pracy + dowód ich działania |
 | 6 | Powtórka | **Ponowny quiz P0** |
 
-## Faza 1 – Fundamenty zarządzania ryzykiem (miesiąc 1–2)
+## Faza 1 – Zarządzanie ryzykiem wg NIST (miesiąc 1–2) – ścieżka główna
 
-| Tydz. | Temat | Materiał | Zadanie praktyczne |
+Decyzja z 2026-11-22: ryzyka uczymy się na **rodzinie dokumentów NIST** (bezpłatne, spójne, praktyczne, bliskie blue teamowi),
+a ISO 31000 / ISO/IEC 27005 traktujemy jako „tłumaczenie” na język wymagań ISO 27001. Wszystko przypinamy do schematu 7 pytań.
+
+| Tydz. | Temat | Materiał (csrc.nist.gov) | Zadanie praktyczne |
 |---|---|---|---|
-| 1 | Definicja ryzyka („wpływ niepewności na cele”), apetyt, tolerancja, właściciel ryzyka | ISO 31073, ISO 31000 kl. 1–4 | Słowniczek 30 pojęć PL/EN; post: „Ryzyko to nie zagrożenie” |
-| 2 | Ramy zarządzania ryzykiem i proces | ISO 31000 kl. 5–6 | Opis ram dla fikcyjnej firmy „ACME” (MŚP produkcyjne, 150 os.) – będzie Twoim poligonem przez cały plan |
-| 3 | Model i proces oceny ryzyka NIST | **NIST SP 800-30 Rev.1** rozdz. 2–3 + zał. D–I | Porównanie ISO 31000 vs NIST 800-30 (1 strona) |
-| 4 | Ryzyko w bezpieczeństwie informacji | **ISO/IEC 27005:2022** (podejście oparte na zdarzeniach vs na aktywach) | Wybór podejścia dla ACME z uzasadnieniem |
-| 5 | Techniki oceny | IEC 31010 – bow-tie, scenariusze, FMEA, Delphi, BIA | Bow-tie „ransomware” – **wykorzystaj wiedzę blue team** (bariery prewencyjne = detekcja/prewencja, bariery łagodzące = IR/backup) |
-| 6 | Ryzyko ilościowe | Hubbard & Seiersen *How to Measure Anything in Cybersecurity Risk*, rozdz. 1–4; podstawy FAIR | Symulacja Monte Carlo w Excelu: roczna strata z ransomware w PLN |
-| 7 | ERM i ład korporacyjny | COSO ERM 2017 (streszczenie), IIA Three Lines Model, NIST IR 8286 (wybrane rozdziały) | Jak ryzyko cyber trafia do rejestru ryzyk zarządu ACME |
-| 8 | Synteza | – | **Metodyka zarządzania ryzykiem v1** (8–15 str.) → `toolkit/` + artykuł |
+| 1 | Ramy zarządzania ryzykiem: **Frame – Assess – Respond – Monitor**, 3 poziomy (tiers) | **SP 800-39** (2011) rozdz. 2–3 | „Rama ryzyka” (Frame) dla ACME: założenia, ograniczenia, tolerancja, priorytety |
+| 2–3 | Ocena ryzyka: model, proces, skale | **SP 800-30 Rev.1** rozdz. 2–3 + zał. D–I | 3–5 scenariuszy ryzyka ACME + skale prawdopodobieństwa i skutków |
+| 4 | Reakcja i monitorowanie ryzyka | SP 800-39 rozdz. 3.3–3.4; SP 800-30 zał. J | Plan reakcji na ryzyko + wskaźniki monitorowania (KRI) |
+| 5–6 | Ład i dojrzałość: **CSF 2.0 – funkcja GOVERN** (GV.OC, GV.RM, GV.RR, GV.PO, GV.OV, GV.SC), profile, poziomy (tiers) | **NIST CSF 2.0** (2024) + Quick Start Guides | **Profil obecny i docelowy ACME** (podstawa usługi „ocena dojrzałości wg CSF 2.0”) |
+| 7 | Ryzyko cyber w ERM i raportowanie do zarządu; rejestr ryzyka | **NIST IR 8286, 8286A–C** (8286D – BIA na później, faza 4) | Rejestr ryzyka ACME + 1-stronicowy raport dla zarządu |
+| 8 | Synteza + „tłumaczenie” na ISO | ISO/IEC 27001 kl. 6.1.2/6.1.3 (masz normę), ISO 31000 w zarysie | **Metodyka zarządzania ryzykiem v1** (NIST = jak, ISO = co) → `toolkit/` |
+
+Na później / dla chętnych: SP 800-37 Rev.2 (RMF – 7 kroków, głównie administracja USA), SP 800-161r1 (ryzyko łańcucha dostaw – przyda się przy NIS 2),
+SP 800-61r3 (obsługa incydentów w układzie CSF 2.0), SP 800-34 Rev.1 (plany awaryjne – faza 4), FAIR / Hubbard (ryzyko ilościowe – faza 5).
 
 ## Faza 2 – ISO/IEC 27001 oczami wdrożeniowca i audytora (miesiąc 3–4)
 

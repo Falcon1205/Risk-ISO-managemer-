@@ -15,6 +15,14 @@
 | 6 | **Co z tym robimy i kto odpowiada?** | Playbook reakcji, eskalacja | Opcje postępowania, zabezpieczenia, porównanie z zał. A, **SoA**, plan postępowania, **akceptacja ryzyka szczątkowego przez właścicieli** (6.1.3 a–f) | Zał. J (reakcja na ryzyko); SP 800-39 „Respond” |
 | 7 | **Czy to nadal prawda?** | Lessons learned, tuning reguł | Komunikacja; ocena w zaplanowanych odstępach **i przy istotnych zmianach**; realizacja planu; zapisy (8.2, 8.3, 9) | Krok 3 – komunikacja; Krok 4 – utrzymanie oceny |
 
+## Ten sam schemat w języku NIST SP 800-39: F-A-R-M
+| FARM (800-39) | Pytania |
+|---|---|
+| **F**rame – rama ryzyka | 1. Co chronimy i po co? · 2. Kiedy ryzyko jest „za duże”? |
+| **A**ssess – ocena (SP 800-30) | 3. Co może pójść źle? · 4. Jak bardzo i jak często? · 5. Co najpierw? |
+| **R**espond – reakcja | 6. Co z tym robimy i kto odpowiada? |
+| **M**onitor – monitorowanie | 7. Czy to nadal prawda? |
+
 ## Skrót do odtwarzania z pamięci
 **CO → KIEDY → CO ZŁEGO → JAK BARDZO → CO NAJPIERW → CO ROBIMY → CZY NADAL**
 
