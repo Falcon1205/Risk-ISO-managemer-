@@ -42,7 +42,7 @@ Kontekst i strony zainteresowane (4.1, 4.2) → Zakres (4.3)
 To dlatego Twój plan zaczyna się od zarządzania ryzykiem.
 
 ## 5. Informacja udokumentowana (*documented information*)
-- **„Utrzymywać”** (*maintain*) = dokument żywy, aktualizowany (np. polityka, zakres, metodyka ryzyka).
+- **„Utrzymywać”** (*maintain*) = dokument żywy, aktualizowany (np. zakres, polityka).
 - **„Zachowywać”** (*retain*) = zapis/dowód, że coś zrobiono (np. wyniki oceny ryzyka, raport z audytu, protokół z przeglądu zarządzania).
 - Norma nie wymaga konkretnej liczby dokumentów ani konkretnej formy – wymaga, by istniały tam, gdzie mówi „informacja udokumentowana”,
   oraz tam, gdzie organizacja uzna je za potrzebne (kl. 7.5.1 b).
@@ -52,6 +52,12 @@ To dlatego Twój plan zaczyna się od zarządzania ryzykiem.
    (Wskazówka: jest ich kilkanaście–kilkadziesiąt; sprawdzimy razem.)
 2. Dla każdej klauzuli 4–10 zapisz **jedno zdanie własnymi słowami** + **jeden przykład z Twojej pracy** (SOC/blue team), który do niej pasuje.
 3. Otwórz Załącznik A i znajdź 5 zabezpieczeń, które **już stosujesz w pracy** (np. logowanie, monitorowanie, zarządzanie podatnościami).
+
+## Zadanie – wersja bez normy pod ręką
+A. Quiz z lekcji (5 pytań – w rozmowie).
+B. Kl. 4–10 własnymi słowami + przykład z SOC.
+C. Dopasowanie 12 dokumentów/zapisów do klauzul i rodzaju (dokument żywy vs dowód).
+D. 5 rzeczy z codziennej pracy → Claude mapuje je na zabezpieczenia Załącznika A.
 
 ## Pojęcia z lekcji (PL / EN)
 SZBI / ISMS · wymaganie / requirement · zabezpieczenie / control · deklaracja stosowania / Statement of Applicability (SoA) ·
