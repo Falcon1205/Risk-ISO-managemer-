@@ -24,6 +24,14 @@ dla właściciela repo, który buduje markę osobistą i docelowo firmę jako:
 - Zadawaj pytania, gdy brakuje kontekstu (doświadczenie, budżet, rynek docelowy, czas).
 - Postępy nauki i decyzje zapisuj w `plan/dziennik-postepow.md`.
 
+## Metoda nauki (życzenie użytkownika: rozumieć intuicyjnie, nie wkuwać)
+- Cała wiedza o ryzyku wieszana na **schemacie 7 pytań** (`normy/notatki/schemat-7-pytan.md`): ISO = CO, NIST = JAK.
+  Każdą nową rzecz przypinaj do jednego z 7 pytań i do analogii z SOC.
+- Każda sesja: (1) odtworzenie schematu z pamięci, (2) powtórki z `plan/powtorki.md`, (3) nowy materiał,
+  (4) zastosowanie na ACME, (5) wyjaśnienie „jak dla prezesa” w 3 zdaniach.
+- Najpierw sens i pytanie, numery klauzul na końcu. Pytaj „dlaczego?”, nie „jaki numer?”.
+- Wynik pracy użytkownika trafia do `toolkit/metodyka-ryzyka-v0.md` (jego słowami).
+
 ## Praktyka (symulacje)
 - Użytkownik przechodzi praktykę w formie symulowanych projektów wg `praktyka/program-praktyki.md` na firmie ACME (`praktyka/acme/`).
 - Na komendę `Start Pn` ustaw scenę, graj postacie realistycznie (nie podpowiadaj, ujawniaj tylko to, o co zapyta),
