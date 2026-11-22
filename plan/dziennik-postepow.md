@@ -7,3 +7,4 @@
 | 2026-11-22 | Faza 0 | Program praktyki symulowanej (P0–P13, firma ACME) + model przychodów i sprzedaży | Start od P0 – quiz diagnostyczny ISO 27001 | – |
 | 2026-11-22 | Moduł 0 | Quiz P0: start od zera. Dodano Moduł 0 (ISO 27001 od podstaw). Lekcja 1 przekazana | Zadanie: lista informacji udokumentowanej, kl. 4–10 własnymi słowami | Post: „Byłem audytorem wiodącym ISO 27001 i nic nie pamiętałem – zaczynam od nowa, publicznie” |
 | 2026-11-22 | Moduł 0, lekcja 1 | Quiz A: 3,25/5. Dobrze: obowiązkowość kl. 4–10, SoA, dobór zabezpieczeń wg ryzyka | Do utrwalenia: 27001 = wymagania (nie „założenia”), pełne PDCA, dokument vs zapis (zapisów się nie zmienia) | – |
+| 2026-11-22 | Lekcja 2 | NIST SP 800-30 – model ryzyka, proces, załączniki, relacja z ISO 27001 | Zadanie: 2 scenariusze ryzyka dla ACME wg modelu NIST | Post: „Ryzyko to łańcuch, nie kratka w macierzy” |
