@@ -19,6 +19,7 @@
 
 | Faza | Miesiące | Temat | Produkt (portfolio) | Certyfikacja |
 |---|---|---|---|---|
+| **0** | **tydz. 1–2** | **ISO 27001 od podstaw** (wynik P0: start od zera) – mapa normy, logika systemu, pojęcia | Notatki `normy/notatki/lekcja-0x`, lista wymaganej dokumentacji | – |
 | 1 | 1–2 | Fundamenty ryzyka: ISO 31000, NIST SP 800-30, ISO/IEC 27005, FAIR | **Metodyka zarządzania ryzykiem v1** | – |
 | 2 | 3–4 | ISO/IEC 27001/27002 – odświeżenie z perspektywy wdrożeniowca **i** audytora | **Toolkit ISMS** + checklista audytowa | – |
 | 3 | 5–6 | Regulacje: NIS 2, UKSC, RODO, KRI, DORA | **Mapowanie NIS 2/UKSC ↔ ISO 27001** + test „czy podlegasz NIS 2” | – |
@@ -52,6 +53,20 @@
 Zasada „**30 minut na odpytanie**”: raz w tygodniu poproś mnie o quiz / case study z bieżącego tematu – to najlepszy sposób, by nie wracać do nauki „pod egzamin”.
 
 ---
+
+## Moduł 0 – ISO 27001 od podstaw (tydzień 1–2)
+
+Dodany po quizie P0 (start od zera). Cel: rozumiesz, **po co** jest norma, jak jest zbudowana i jak „płynie” logika systemu –
+dzięki temu nauka ryzyka w fazie 1 będzie miała kontekst.
+
+| Lekcja | Temat | Zadanie |
+|---|---|---|
+| 1 | Czym jest ISMS, budowa normy, kl. 4–10 i PDCA, informacja udokumentowana | Lista wymaganej dokumentacji; kl. 4–10 własnymi słowami + przykłady z SOC |
+| 2 | Kl. 4–5: kontekst, strony zainteresowane, zakres, przywództwo | Kontekst i zakres dla ACME |
+| 3 | Kl. 6: ryzyko i cele – pierwsze spojrzenie | Opis procesu ryzyka „na chłopski rozum” |
+| 4 | Kl. 7–10: wsparcie, działania, ocena, doskonalenie | Mapa dowodów: co audytor chce zobaczyć dla każdej klauzuli |
+| 5 | Załącznik A – przegląd 93 zabezpieczeń | 15 zabezpieczeń znanych z pracy + dowód ich działania |
+| 6 | Powtórka | **Ponowny quiz P0** |
 
 ## Faza 1 – Fundamenty zarządzania ryzykiem (miesiąc 1–2)
 
